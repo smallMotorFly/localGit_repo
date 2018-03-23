@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BC365151FCE5DE000F89B8A /* TCMShoppingCartNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC364FA1FCE5D7000F89B8A /* TCMShoppingCartNode.m */; };
+		3BC365161FCE5DE900F89B8A /* TCMShoppingMarketCartNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC364FC1FCE5D7000F89B8A /* TCMShoppingMarketCartNode.m */; };
+		3BC365171FCE5DE900F89B8A /* TCMShoppingMarketCompulsoryMarketCartNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC364FE1FCE5D7000F89B8A /* TCMShoppingMarketCompulsoryMarketCartNode.m */; };
+		3BC365181FCE5DE900F89B8A /* TCMShoppingMarketSelfPayingMarketCartNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC365001FCE5D7000F89B8A /* TCMShoppingMarketSelfPayingMarketCartNode.m */; };
+		3BC365191FCE5DE900F89B8A /* TCMShoppingStoreCompulsoryMarketCartNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC365021FCE5D7000F89B8A /* TCMShoppingStoreCompulsoryMarketCartNode.m */; };
+		3BC3651A1FCE5DE900F89B8A /* TCMShoppingStoreSelfPayingMarketCartNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC365041FCE5D7000F89B8A /* TCMShoppingStoreSelfPayingMarketCartNode.m */; };
+		3BC3651B1FCE5DE900F89B8A /* TCMShoppingSuperiorCartNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC365061FCE5D7000F89B8A /* TCMShoppingSuperiorCartNode.m */; };
+		3BC3651C1FCE5DF100F89B8A /* TCMShoppingMarketGoodsCartNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC3650B1FCE5D7000F89B8A /* TCMShoppingMarketGoodsCartNode.m */; };
+		3BC3651D1FCE5DF100F89B8A /* TCMShoppingSuperiorGoodsCartNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC3650D1FCE5D7000F89B8A /* TCMShoppingSuperiorGoodsCartNode.m */; };
+		3BC3651E1FCE5DF100F89B8A /* TCMShoppingMarketSupplierCartNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC365101FCE5D7000F89B8A /* TCMShoppingMarketSupplierCartNode.m */; };
+		3BC3651F1FCE5DF100F89B8A /* TCMShoppingSuperiorSupplierCartNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC365121FCE5D7000F89B8A /* TCMShoppingSuperiorSupplierCartNode.m */; };
+		3BC365201FCE5DF100F89B8A /* TCMShoppingSupplierCartNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC365141FCE5D7000F89B8A /* TCMShoppingSupplierCartNode.m */; };
+		3BC365211FCE5DF400F89B8A /* TCMShoppingGoodsNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC365091FCE5D7000F89B8A /* TCMShoppingGoodsNode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3BC364E41FCE5D5A00F89B8A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3BC364E61FCE5D5A00F89B8A /* libShoppingService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libShoppingService.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC364F91FCE5D7000F89B8A /* TCMShoppingCartNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCMShoppingCartNode.h; sourceTree = "<group>"; };
+		3BC364FA1FCE5D7000F89B8A /* TCMShoppingCartNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCMShoppingCartNode.m; sourceTree = "<group>"; };
+		3BC364FB1FCE5D7000F89B8A /* TCMShoppingMarketCartNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCMShoppingMarketCartNode.h; sourceTree = "<group>"; };
+		3BC364FC1FCE5D7000F89B8A /* TCMShoppingMarketCartNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCMShoppingMarketCartNode.m; sourceTree = "<group>"; };
+		3BC364FD1FCE5D7000F89B8A /* TCMShoppingMarketCompulsoryMarketCartNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCMShoppingMarketCompulsoryMarketCartNode.h; sourceTree = "<group>"; };
+		3BC364FE1FCE5D7000F89B8A /* TCMShoppingMarketCompulsoryMarketCartNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCMShoppingMarketCompulsoryMarketCartNode.m; sourceTree = "<group>"; };
+		3BC364FF1FCE5D7000F89B8A /* TCMShoppingMarketSelfPayingMarketCartNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCMShoppingMarketSelfPayingMarketCartNode.h; sourceTree = "<group>"; };
+		3BC365001FCE5D7000F89B8A /* TCMShoppingMarketSelfPayingMarketCartNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCMShoppingMarketSelfPayingMarketCartNode.m; sourceTree = "<group>"; };
+		3BC365011FCE5D7000F89B8A /* TCMShoppingStoreCompulsoryMarketCartNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCMShoppingStoreCompulsoryMarketCartNode.h; sourceTree = "<group>"; };
+		3BC365021FCE5D7000F89B8A /* TCMShoppingStoreCompulsoryMarketCartNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCMShoppingStoreCompulsoryMarketCartNode.m; sourceTree = "<group>"; };
+		3BC365031FCE5D7000F89B8A /* TCMShoppingStoreSelfPayingMarketCartNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCMShoppingStoreSelfPayingMarketCartNode.h; sourceTree = "<group>"; };
+		3BC365041FCE5D7000F89B8A /* TCMShoppingStoreSelfPayingMarketCartNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCMShoppingStoreSelfPayingMarketCartNode.m; sourceTree = "<group>"; };
+		3BC365051FCE5D7000F89B8A /* TCMShoppingSuperiorCartNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCMShoppingSuperiorCartNode.h; sourceTree = "<group>"; };
+		3BC365061FCE5D7000F89B8A /* TCMShoppingSuperiorCartNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCMShoppingSuperiorCartNode.m; sourceTree = "<group>"; };
+		3BC365081FCE5D7000F89B8A /* TCMShoppingGoodsNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCMShoppingGoodsNode.h; sourceTree = "<group>"; };
+		3BC365091FCE5D7000F89B8A /* TCMShoppingGoodsNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCMShoppingGoodsNode.m; sourceTree = "<group>"; };
+		3BC3650A1FCE5D7000F89B8A /* TCMShoppingMarketGoodsCartNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCMShoppingMarketGoodsCartNode.h; sourceTree = "<group>"; };
+		3BC3650B1FCE5D7000F89B8A /* TCMShoppingMarketGoodsCartNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCMShoppingMarketGoodsCartNode.m; sourceTree = "<group>"; };
+		3BC3650C1FCE5D7000F89B8A /* TCMShoppingSuperiorGoodsCartNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCMShoppingSuperiorGoodsCartNode.h; sourceTree = "<group>"; };
+		3BC3650D1FCE5D7000F89B8A /* TCMShoppingSuperiorGoodsCartNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCMShoppingSuperiorGoodsCartNode.m; sourceTree = "<group>"; };
+		3BC3650F1FCE5D7000F89B8A /* TCMShoppingMarketSupplierCartNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCMShoppingMarketSupplierCartNode.h; sourceTree = "<group>"; };
+		3BC365101FCE5D7000F89B8A /* TCMShoppingMarketSupplierCartNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCMShoppingMarketSupplierCartNode.m; sourceTree = "<group>"; };
+		3BC365111FCE5D7000F89B8A /* TCMShoppingSuperiorSupplierCartNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCMShoppingSuperiorSupplierCartNode.h; sourceTree = "<group>"; };
+		3BC365121FCE5D7000F89B8A /* TCMShoppingSuperiorSupplierCartNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCMShoppingSuperiorSupplierCartNode.m; sourceTree = "<group>"; };
+		3BC365131FCE5D7000F89B8A /* TCMShoppingSupplierCartNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCMShoppingSupplierCartNode.h; sourceTree = "<group>"; };
+		3BC365141FCE5D7000F89B8A /* TCMShoppingSupplierCartNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCMShoppingSupplierCartNode.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BC364E31FCE5D5A00F89B8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BC364DD1FCE5D5A00F89B8A = {
+			isa = PBXGroup;
+			children = (
+				3BC364E81FCE5D5A00F89B8A /* ShoppingService */,
+				3BC364E71FCE5D5A00F89B8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BC364E71FCE5D5A00F89B8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BC364E61FCE5D5A00F89B8A /* libShoppingService.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BC364E81FCE5D5A00F89B8A /* ShoppingService */ = {
+			isa = PBXGroup;
+			children = (
+				3BC364F81FCE5D7000F89B8A /* CartNode */,
+				3BC365071FCE5D7000F89B8A /* GoodsNode */,
+				3BC3650E1FCE5D7000F89B8A /* SupplierNode */,
+			);
+			path = ShoppingService;
+			sourceTree = "<group>";
+		};
+		3BC364F81FCE5D7000F89B8A /* CartNode */ = {
+			isa = PBXGroup;
+			children = (
+				3BC364F91FCE5D7000F89B8A /* TCMShoppingCartNode.h */,
+				3BC364FA1FCE5D7000F89B8A /* TCMShoppingCartNode.m */,
+				3BC364FB1FCE5D7000F89B8A /* TCMShoppingMarketCartNode.h */,
+				3BC364FC1FCE5D7000F89B8A /* TCMShoppingMarketCartNode.m */,
+				3BC364FD1FCE5D7000F89B8A /* TCMShoppingMarketCompulsoryMarketCartNode.h */,
+				3BC364FE1FCE5D7000F89B8A /* TCMShoppingMarketCompulsoryMarketCartNode.m */,
+				3BC364FF1FCE5D7000F89B8A /* TCMShoppingMarketSelfPayingMarketCartNode.h */,
+				3BC365001FCE5D7000F89B8A /* TCMShoppingMarketSelfPayingMarketCartNode.m */,
+				3BC365011FCE5D7000F89B8A /* TCMShoppingStoreCompulsoryMarketCartNode.h */,
+				3BC365021FCE5D7000F89B8A /* TCMShoppingStoreCompulsoryMarketCartNode.m */,
+				3BC365031FCE5D7000F89B8A /* TCMShoppingStoreSelfPayingMarketCartNode.h */,
+				3BC365041FCE5D7000F89B8A /* TCMShoppingStoreSelfPayingMarketCartNode.m */,
+				3BC365051FCE5D7000F89B8A /* TCMShoppingSuperiorCartNode.h */,
+				3BC365061FCE5D7000F89B8A /* TCMShoppingSuperiorCartNode.m */,
+			);
+			path = CartNode;
+			sourceTree = "<group>";
+		};
+		3BC365071FCE5D7000F89B8A /* GoodsNode */ = {
+			isa = PBXGroup;
+			children = (
+				3BC365081FCE5D7000F89B8A /* TCMShoppingGoodsNode.h */,
+				3BC365091FCE5D7000F89B8A /* TCMShoppingGoodsNode.m */,
+				3BC3650A1FCE5D7000F89B8A /* TCMShoppingMarketGoodsCartNode.h */,
+				3BC3650B1FCE5D7000F89B8A /* TCMShoppingMarketGoodsCartNode.m */,
+				3BC3650C1FCE5D7000F89B8A /* TCMShoppingSuperiorGoodsCartNode.h */,
+				3BC3650D1FCE5D7000F89B8A /* TCMShoppingSuperiorGoodsCartNode.m */,
+			);
+			path = GoodsNode;
+			sourceTree = "<group>";
+		};
+		3BC3650E1FCE5D7000F89B8A /* SupplierNode */ = {
+			isa = PBXGroup;
+			children = (
+				3BC3650F1FCE5D7000F89B8A /* TCMShoppingMarketSupplierCartNode.h */,
+				3BC365101FCE5D7000F89B8A /* TCMShoppingMarketSupplierCartNode.m */,
+				3BC365111FCE5D7000F89B8A /* TCMShoppingSuperiorSupplierCartNode.h */,
+				3BC365121FCE5D7000F89B8A /* TCMShoppingSuperiorSupplierCartNode.m */,
+				3BC365131FCE5D7000F89B8A /* TCMShoppingSupplierCartNode.h */,
+				3BC365141FCE5D7000F89B8A /* TCMShoppingSupplierCartNode.m */,
+			);
+			path = SupplierNode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BC364E51FCE5D5A00F89B8A /* ShoppingService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BC364EF1FCE5D5A00F89B8A /* Build configuration list for PBXNativeTarget "ShoppingService" */;
+			buildPhases = (
+				3BC364E21FCE5D5A00F89B8A /* Sources */,
+				3BC364E31FCE5D5A00F89B8A /* Frameworks */,
+				3BC364E41FCE5D5A00F89B8A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShoppingService;
+			productName = ShoppingService;
+			productReference = 3BC364E61FCE5D5A00F89B8A /* libShoppingService.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BC364DE1FCE5D5A00F89B8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "淘菜猫";
+				TargetAttributes = {
+					3BC364E51FCE5D5A00F89B8A = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3BC364E11FCE5D5A00F89B8A /* Build configuration list for PBXProject "ShoppingService" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3BC364DD1FCE5D5A00F89B8A;
+			productRefGroup = 3BC364E71FCE5D5A00F89B8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BC364E51FCE5D5A00F89B8A /* ShoppingService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BC364E21FCE5D5A00F89B8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC3651A1FCE5DE900F89B8A /* TCMShoppingStoreSelfPayingMarketCartNode.m in Sources */,
+				3BC365211FCE5DF400F89B8A /* TCMShoppingGoodsNode.m in Sources */,
+				3BC365191FCE5DE900F89B8A /* TCMShoppingStoreCompulsoryMarketCartNode.m in Sources */,
+				3BC3651E1FCE5DF100F89B8A /* TCMShoppingMarketSupplierCartNode.m in Sources */,
+				3BC365181FCE5DE900F89B8A /* TCMShoppingMarketSelfPayingMarketCartNode.m in Sources */,
+				3BC365201FCE5DF100F89B8A /* TCMShoppingSupplierCartNode.m in Sources */,
+				3BC3651D1FCE5DF100F89B8A /* TCMShoppingSuperiorGoodsCartNode.m in Sources */,
+				3BC365171FCE5DE900F89B8A /* TCMShoppingMarketCompulsoryMarketCartNode.m in Sources */,
+				3BC365161FCE5DE900F89B8A /* TCMShoppingMarketCartNode.m in Sources */,
+				3BC3651B1FCE5DE900F89B8A /* TCMShoppingSuperiorCartNode.m in Sources */,
+				3BC3651F1FCE5DF100F89B8A /* TCMShoppingSuperiorSupplierCartNode.m in Sources */,
+				3BC3651C1FCE5DF100F89B8A /* TCMShoppingMarketGoodsCartNode.m in Sources */,
+				3BC365151FCE5DE000F89B8A /* TCMShoppingCartNode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3BC364ED1FCE5D5A00F89B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3BC364EE1FCE5D5A00F89B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BC364F01FCE5D5A00F89B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N3379XTAJ9;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BC364F11FCE5D5A00F89B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N3379XTAJ9;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BC364E11FCE5D5A00F89B8A /* Build configuration list for PBXProject "ShoppingService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BC364ED1FCE5D5A00F89B8A /* Debug */,
+				3BC364EE1FCE5D5A00F89B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BC364EF1FCE5D5A00F89B8A /* Build configuration list for PBXNativeTarget "ShoppingService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BC364F01FCE5D5A00F89B8A /* Debug */,
+				3BC364F11FCE5D5A00F89B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BC364DE1FCE5D5A00F89B8A /* Project object */;
+}

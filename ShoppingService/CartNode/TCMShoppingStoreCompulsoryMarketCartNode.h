@@ -1,0 +1,25 @@
+//
+//  TCMShoppingStoreCompulsoryMarketCartNode.h
+//  ShoppingService
+//
+//  Created by Dao on 2017/11/28.
+//  Copyright © 2017年 淘菜猫. All rights reserved.
+//
+
+#import "TCMShoppingMarketCartNode.h"
+
+/**
+ * 单店铺强制满免模式
+ *  市场内任一店铺满X元起送
+ */
+@interface TCMShoppingStoreCompulsoryMarketCartNode : TCMShoppingMarketCartNode
+/*
+ 1、所选商品总价 < T1(起送价)
+
+ 店铺提示:"本店铺满X元起送"
+ 去结算提示:"差Z元起送"（提示信息按照差额最少的提示）
+ 2、所选商品总价 >= T1(起送价)
+
+ 无提示信息
+ */
+@end
